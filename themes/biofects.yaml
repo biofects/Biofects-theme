@@ -1,0 +1,84 @@
+biofects:
+  ### Backdrop for Dialog ###
+  dialog-backdrop-filter: blur(8px)  # Stronger blur to accentuate floating effect
+  iron-overlay-backdrop-opacity: 1
+  iron-overlay-backdrop-background-color: rgba(0, 0, 0, 0.32)
+
+  ### Header Height ###
+  header-height: 40px
+
+  ### Main Interface Colors ###
+  lovelace-background: 'center / cover no-repeat url("/local/backgrounds/biofects.jpg") fixed'
+  app-header-background-color: "#141A32"  # Dark header background
+  card-background-color: "rgba(255, 255, 255, 0.03)"  # Transparent card background for clear glass
+  primary-color: "#007AFF"  # Neon blue
+  light-primary-color: "#4DA3FF"  # Light neon blue
+  primary-background-color: "#141A32"  # Matching header background
+  secondary-background-color: "#000000"  # Pure black secondary background
+  rgb-secondary-background-color: 0, 0, 0
+  divider-color: "#3B4C8B"  # Blue divider
+  markdown-code-background-color: "#1E2747"  # Dark blue for code blocks
+
+  ### Text Colors ###
+  primary-text-color: "#FFFFFF"  # White text for readability
+  secondary-text-color: "#4DA3FF"  # Light neon blue for secondary text
+  text-primary-color: var(--primary-text-color)
+  disabled-text-color: "#4F5F78"  # Muted gray
+
+  ### Sidebar Menu ###
+  sidebar-icon-color: "#4F6B95"  # Muted blue for icons
+  sidebar-text-color: "#CBD5E4"  # Light blue for sidebar text
+  sidebar-selected-background-color: "#141A32"  # Dark background for selected
+  sidebar-selected-icon-color: "#4DA3FF"  # Light neon blue for active icons
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  sidebar-background-color: "#141A32"  # Dark sidebar background
+
+  ### States and Badges ###
+  state-icon-color: var(--primary-color)  # Neon blue for state icons
+  state-icon-active-color: "#FBCD41"  # Bright yellow for active state
+  state-icon-unavailable-color: var(--disabled-text-color)  # Gray for unavailable
+
+  ### Sliders ###
+  paper-slider-knob-color: var(--primary-color)  # Neon blue for knob
+  paper-slider-knob-start-color: var(--primary-color)
+  paper-slider-pin-color: var(--primary-color)
+  paper-slider-active-color: var(--primary-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+
+  ### Labels ###
+  label-badge-background-color: var(--markdown-code-background-color)
+  label-badge-text-color: var(--primary-text-color)
+  label-badge-red: var(--divider-color)
+  label-badge-yellow: "#DCA304"  # Yellow for alerts
+
+  ### Clear Glass-Like Card Effect with Enhanced Glow ###
+  ha-card-border-radius: '20px'  # Rounded corners for cards
+  ha-card-box-shadow: "0px 0px 8px rgba(77, 163, 255, 0.8)"  # Glow effect
+  ha-card-background: "rgba(255, 255, 255, 0.03)"  # Very transparent for clear glass effect
+  paper-card-header-color: var(--primary-text-color)  # White card header
+  paper-card-background-color: var(--ha-card-background)  # Ensures cards use the theme's card background
+  paper-listbox-background-color: var(--primary-background-color)
+  rgb-card-background-color: var(--rgb-secondary-background-color)
+
+  ### Toggles ###
+  paper-toggle-button-checked-button-color: "#FCFCFC"
+  paper-toggle-button-checked-bar-color: var(--light-primary-color)
+  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+  paper-toggle-button-unchecked-bar-color: "#303F79"  # Dark blue for toggle
+
+  ### Table Rows ###
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--primary-background-color)
+  data-table-background-color: var(--primary-background-color)
+
+  ### Switches ###
+  switch-unchecked-button-color: var(--divider-color)
+  switch-unchecked-track-color: var(--divider-color)
+
+  ### Inputs ###
+  input-fill-color: "rgba(255, 255, 255, 0.05)"  # Slight transparency for input fields
+  input-label-ink-color: var(--primary-color)
+  input-ink-color: var(--primary-color)
+  input-disabled-fill-color: "rgba(0, 0, 0, 0.33)"
+  input-disabled-ink-color: var(--disabled-primary-color)
+
