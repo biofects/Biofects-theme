@@ -44,12 +44,16 @@ These are the essential plugins that helped me craft the Biofects Theme experien
 
 - [Sidebar Card](https://github.com/DBuit/sidebar-card) – For an easy-to-navigate sidebar.
 - [Wall Panel](https://github.com/j-a-n/lovelace-wallpanel) – A powerful screen saver.
+- [Kiosk Mode](https://github.com/maykar/kiosk-mode) – Hides UI elements for a streamlined experience.
 - [Card Mod](https://github.com/thomasloven/lovelace-card-mod) – Add custom styling to cards.
+
+## 🔧 Otional plugins I validated that work
 - [Restriction Card](https://github.com/iantrich/restriction-card) – Lock access to things like thermostats. 🔒
 - [Unifi Gateway](https://github.com/custom-components/sensor.unifigateway)
 - [Unifi Counter Sensors](https://github.com/clyra/unifics)
 - [Simple Sticky Note](https://github.com/biofects/simple_sticky_note) – For quick notes.
 - [Clock Weather Card](https://github.com/pkissling/clock-weather-card)
+- [Kiosk Mode](https://github.com/maykar/kiosk-mode) – Hides UI elements for a streamlined experience.
 
 ---
 
@@ -74,7 +78,7 @@ These are the essential plugins that helped me craft the Biofects Theme experien
 
 To get the layout I wanted with Biofects Theme, I combined various plugins and customization:
 
-1. Updated each dashboard to support **Wall Panel** and **Sidebar Card**.
+1. Updated each dashboard to support **Wall Panel**, **Sidebar Card** and **Kiosk Mode**.
 2. YAML for content and views should be placed above the dashboard views.
 3. Example box for clock-weather card configuration:  
    [Clock-Weather_card-configuration.yaml](./examples/Clock-Weather_card-configuration.yaml)
