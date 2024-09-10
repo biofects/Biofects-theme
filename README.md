@@ -1,7 +1,9 @@
 # Biofects
 Biofects theme is: A modern HUD display for Home Assistant.  **[WIP]**
+[Biofects Theme](images/biofects-main.jpg)
+[Biofects Theme](images/biofects-sample.jpg)
 
-# About this theme and why i made it
+# About this theme and why I made it
 I made this theme to give a easy on the eyes look and simple to use for my family. This theme for my layout is also using many additional plugins to give me a look and feel that we found to be easy to navigate
 
 1. My Home assistnat runs on a server in Docker. No I do not used supervised, no I do not send data to Home Assistant. This is my choice to struggle a bit more than a managed OS but I am ok with that. 
@@ -24,7 +26,7 @@ I made this theme to give a easy on the eyes look and simple to use for my famil
 This is just examples of what is in my Home Assistant. With plans to add more.
 
 
-### Donate to get me geek stuff(sorry no beer here)
+### Donatiosn Welcome and Apprciated
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWRQVYJWC77E6)
 
