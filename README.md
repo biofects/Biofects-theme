@@ -47,7 +47,7 @@ These are the essential plugins that helped me craft the Biofects Theme experien
 - [Kiosk Mode](https://github.com/maykar/kiosk-mode) – Hides UI elements for a streamlined experience.
 - [Card Mod](https://github.com/thomasloven/lovelace-card-mod) – Add custom styling to cards.
 
-## 🔧 Otional plugins I validated that work
+## 🔧 Optional plugins I validated that work
 - [Restriction Card](https://github.com/iantrich/restriction-card) – Lock access to things like thermostats. 🔒
 - [Unifi Gateway](https://github.com/custom-components/sensor.unifigateway)
 - [Unifi Counter Sensors](https://github.com/clyra/unifics)
