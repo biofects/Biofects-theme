@@ -46,7 +46,7 @@ This is just examples of what is in my Home Assistant. With plans to add more.
 
 1. Make sure you have [HACS](https://hacs.xyz/) installed in your Home Assistant instance.
 2. Go to the HACS panel, then click on the three dots in the top right corner and select "Custom repositories."
-3. In the dialog that appears, paste the following URL: [https://github.com/biofects/simple_sticky_note](https://github.com/biofects/Biofects-theme) and select "Theme" as the category.
+3. In the dialog that appears, paste the following URL: [https://github.com/biofects/biofects-theme](https://github.com/biofects/Biofects-theme) and select "Theme" as the category.
 4. Click "Add," then navigate to the "Theme" tab, click the "+ Explore & Download Repositories" button, and search for "Biofects"
 5. Install the theme and restart Home Assistant.
 6. Go to User profile and change the theme to Biofects
