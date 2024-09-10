@@ -1,5 +1,8 @@
 # Biofects
 Biofects theme is: A modern HUD display for Home Assistant.  **[WIP]**
+
+<img src="images/biofects-mainpage.jpg" alt="Biofects Theme Screenshot" width="400"/>
+
 ![Biofects Theme](images/biofects-mainpage.jpg)
 ![Biofects Theme](images/biofects-sample.jpg)
 
