@@ -18,7 +18,7 @@ wallpanel:
   info_move_fade_duration: 2
   cards:
     - type: custom:clock-weather-card
-      entity: weather.tfam_home
+      entity: weather.forecast_home
       title: Home
       sun_entity: sun.sun
       temperature_sensor: sensor.outdoor_temp
@@ -44,7 +44,7 @@ wallpanel:
 kiosk_mode:
   user_settings:
     - users:
-        - tfam
+        - <your non-admin user>
       kiosk: true
 sidebar:
   style: |
