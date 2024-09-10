@@ -65,4 +65,18 @@ License
 This project is licensed under the MIT License.
 
 
+## How I made my layout using my theme and additional plugins
+
+### Please see my plugin list above
+
+1. I updated each dashboard to support Wall Panel and Sidebar-card
+2. All the content of the YAML should be placed above the views in the dashboard. (I know I could make a template -- Maybe Later
+[lovelace-dashboard.yaml](./example/lovelace-dassboard.yaml)
+
+3. I create an Sample box example
+[Clock-Weather_card-configuration.yaml](./example/Clock-Weather_card-configuration.yaml)
+
+
+
+
 
