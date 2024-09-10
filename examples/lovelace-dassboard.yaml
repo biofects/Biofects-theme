@@ -1,0 +1,153 @@
+wallpanel:
+  enabled: true
+  enabled_on_tabs: []
+  hide_toolbar: false
+  hide_sidebar: false
+  fullscreen: false
+  display_time: 30
+  image_order: random
+  image_list_update_interval: 3600
+  image_url: >-
+    https://api.unsplash.com/photos/random?client_id=<your secret key>&query=dogs,nature,wildlife
+  info_animation_duration_x: 30
+  info_animation_duration_y: 11
+  info_animation_timing_function_x: ease-in-out
+  info_animation_timing_function_y: ease-in-out
+  info_move_pattern: random
+  info_move_interval: 0
+  info_move_fade_duration: 2
+  cards:
+    - type: custom:clock-weather-card
+      entity: weather.forecast_home
+      title: Home
+      sun_entity: sun.sun
+      temperature_sensor: sensor.outdoor_temp
+      humidity_sensor: sensor.outdoor_humidity
+      weather_icon_type: line
+      animated_icon: true
+      forecast_rows: 5
+      locale: en-GB
+      time_pattern: hh:mm
+      time_format: 12
+      date_pattern: ccc, d.MM.yy
+      hide_today_section: false
+      hide_forecast_section: false
+      show_humidity: true
+      hide_clock: false
+      hide_date: false
+      hourly_forecast: false
+      use_browser_time: false
+      time_zone: null
+      show_decimal: false
+      apparent_sensor: sensor.real_feel_temperature
+      aqi_sensor: sensor.air_quality_index
+kiosk_mode:
+  user_settings:
+    - users:
+        - <your non-admin user>
+      kiosk: true
+sidebar:
+  style: |
+    :host {
+      --sidebar-background-color: rgba(20, 20, 50, 0.6); /* Lighter transparency for glass effect */
+      --sidebar-text-color: #B0C4FF; /* Light blue text for readability */
+      --sidebar-icon-color: #4DA3FF; /* Neon blue for icons to match theme */
+      --sidebar-selected-background-color: rgba(0, 0, 70, 0.7); /* Darker, more translucent blue for selected items */
+      --sidebar-selected-icon-color: #FF6AD5; /* Neon pink for selected item icons */
+      --sidebar-selected-text-color: #FFFFFF; /* White text for selected items */
+      background-color: var(--sidebar-background-color);
+      color: var(--sidebar-text-color);
+      backdrop-filter: blur(10px); /* Apply blur for glass effect */
+      -webkit-backdrop-filter: blur(10px); /* For Safari */
+      border: 1px solid rgba(255, 255, 255, 0.25); /* Subtle border for depth */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for 3D effect */
+      padding: 10px 0; /* Added padding for spacing */
+      font-family: 'Roboto', sans-serif; /* Modern, clean font style */
+    }
+
+    .sidebarMenu li.active {
+      background-color: var(--sidebar-selected-background-color);
+      color: var(--sidebar-selected-text-color);
+      font-weight: bold;
+    }
+
+    .sidebarMenu li {
+      line-height: 50px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Maintain subtle dividers for each menu item */
+    }
+
+    .sidebarMenu li:hover {
+      background-color: rgba(0, 0, 100, 0.8); /* More pronounced on hover for better visibility */
+      color: var(--sidebar-selected-text-color);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .digitalClock, .date {
+      text-align: center;
+      color: var(--sidebar-text-color);
+      font-size: 16px; /* Slightly larger for better visibility */
+    }
+
+    .sidebarMenu li.active .sidebar-icon {
+      color: var(--sidebar-selected-icon-color);
+    }
+
+    .sidebar-icon {
+      color: var(--sidebar-icon-color);
+      transition: color 0.3s ease;
+    }
+
+    .sidebar-icon:hover {
+      color: #FF6AD5; /* Neon pink on hover */
+    }
+  width:
+    mobile: 0
+    tablet: 10
+    desktop: 10
+  digitalClock: true
+  date: true
+  dateFormat: DD-MMM-YYYY
+  twelveHourVersion: true
+  period: true
+  clock: false
+  hideTopMenu: false
+  hideHassSidebar: false
+  sidebarMenu:
+    - action: navigate
+      navigation_path: /dashboard-home
+      name: Home
+      active: true
+    - action: navigate
+      navigation_path: /dashboard-climate
+      name: Climate
+      active: true
+    - action: navigate
+      navigation_path: /dashboard-irrigation
+      name: Irrigation
+      active: true
+    - action: navigate
+      navigation_path: /dashboard-lights
+      name: Lights
+      active: true
+    - action: navigate
+      navigation_path: /dashboard-security
+      name: Security
+      active: true
+    - action: navigate
+      navigation_path: /profile/general
+      name: Profile
+      active: true
+    - action: navigate
+      navigation_path: /calendar
+      name: Calendar
+      active: true
+  bottomCard:
+    type: grid
+    cardOptions:
+      columns: 1
+      square: false
+      cards:
+        - type: weather-forecast
+          entity: weather.forecast_home
+          forecast_type: daily

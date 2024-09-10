@@ -1,0 +1,7 @@
+{
+  "name": "Biofects Theme",
+  "domains": ["frontend"],
+  "homeassistant": "2023.0.0",
+  "description": "A modern HUD-themed Home Assistant theme with neon effects, transparency, and glowing cards.",
+  "render_readme": true,
+}
